@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title">
+<title id="title">Three stone landmarks connected by a woodland trail: useful tools, connected agents, real products.</title>
+<defs>
+  <radialGradient id="night"><stop stop-color="#102C25"/><stop offset="1" stop-color="#071C17"/></radialGradient>
+  <linearGradient id="stone" x2=".7" y2="1"><stop stop-color="#467449"/><stop offset=".5" stop-color="#284D36"/><stop offset="1" stop-color="#061611"/></linearGradient>
+  <linearGradient id="light" x2="0" y2="1"><stop stop-color="#83EAD3" stop-opacity=".22"/><stop offset="1" stop-color="#83EAD3" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="1200" height="300" rx="12" fill="url(#night)"/>
+<path d="M60 225C266 74 377 296 586 216S1008 76 1148 207" fill="none" stroke="#7A8755" stroke-width="26" opacity=".08"/>
+<path d="M60 225C266 74 377 296 586 216S1008 76 1148 207" fill="none" stroke="#B4DCD0" stroke-width="1.5" stroke-dasharray="3 10" opacity=".55"/><g transform="translate(204 182)">
+<ellipse cy="12" rx="64" ry="16" fill="#061611" opacity=".7"/>
+<path d="M-46 1-43-79-26-94 28-88 46-67 43 2 7 15Z" fill="url(#stone)"/>
+<path d="M-43-79-26-94 28-88 46-67 4-75Z" fill="#7A8755" opacity=".45"/>
+<path d="M-34-77-28-53m-4 20-3 22M32-64l-4 12 4 20" fill="none" stroke="#7A8755" opacity=".65"/>
+<g fill="none" stroke="#83EAD3" stroke-width="2" stroke-linejoin="round"><path d="m-20-57-11 11 11 11m40-22 11 11-11 11m-12-27-12 32"/></g>
+<path d="M-39-4q20-17 32-2t44-4" fill="none" stroke="#79A85D" stroke-width="5"/>
+<text x="0" y="40" text-anchor="middle" fill="#B4DCD0" font-family="monospace" font-size="14">01</text>
+</g><text x="204" y="254" text-anchor="middle" fill="#E9EFE0" font-family="Georgia,serif" font-size="28">Useful tools</text><g transform="translate(586 216)">
+<ellipse cy="12" rx="64" ry="16" fill="#061611" opacity=".7"/>
+<path d="M-46 1-43-79-26-94 28-88 46-67 43 2 7 15Z" fill="url(#stone)"/>
+<path d="M-43-79-26-94 28-88 46-67 4-75Z" fill="#7A8755" opacity=".45"/>
+<path d="M-34-77-28-53m-4 20-3 22M32-64l-4 12 4 20" fill="none" stroke="#7A8755" opacity=".65"/>
+<g fill="none" stroke="#83EAD3" stroke-width="2" stroke-linejoin="round"><path d="M0-61v14m-21 17 21-17 21 17"/><circle cy="-66" r="5"/><circle cx="-24" cy="-27" r="5"/><circle cx="24" cy="-27" r="5"/></g>
+<path d="M-39-4q20-17 32-2t44-4" fill="none" stroke="#79A85D" stroke-width="5"/>
+<text x="0" y="40" text-anchor="middle" fill="#B4DCD0" font-family="monospace" font-size="14">02</text>
+</g><text x="586" y="288" text-anchor="middle" fill="#E9EFE0" font-family="Georgia,serif" font-size="28">Connected agents</text><g transform="translate(992 156)">
+<ellipse cy="12" rx="64" ry="16" fill="#061611" opacity=".7"/>
+<path d="M-46 1-43-79-26-94 28-88 46-67 43 2 7 15Z" fill="url(#stone)"/>
+<path d="M-43-79-26-94 28-88 46-67 4-75Z" fill="#7A8755" opacity=".45"/>
+<path d="M-34-77-28-53m-4 20-3 22M32-64l-4 12 4 20" fill="none" stroke="#7A8755" opacity=".65"/>
+<g fill="none" stroke="#83EAD3" stroke-width="2" stroke-linejoin="round"><path d="m0-68 24 14v27L0-13-24-27v-27Zm-24 14L0-40l24-14M0-40v27"/></g>
+<path d="M-39-4q20-17 32-2t44-4" fill="none" stroke="#79A85D" stroke-width="5"/>
+<text x="0" y="40" text-anchor="middle" fill="#B4DCD0" font-family="monospace" font-size="14">03</text>
+</g><text x="992" y="228" text-anchor="middle" fill="#E9EFE0" font-family="Georgia,serif" font-size="28">Real products</text><circle cx="32" cy="42" r="2" fill="#83EAD3" opacity=".45"/><circle cx="169" cy="125" r="1" fill="#83EAD3" opacity=".45"/><circle cx="306" cy="208" r="1" fill="#83EAD3" opacity=".45"/><circle cx="443" cy="61" r="2" fill="#83EAD3" opacity=".45"/><circle cx="580" cy="144" r="1" fill="#83EAD3" opacity=".45"/><circle cx="717" cy="227" r="1" fill="#83EAD3" opacity=".45"/><circle cx="854" cy="80" r="2" fill="#83EAD3" opacity=".45"/><circle cx="991" cy="163" r="1" fill="#83EAD3" opacity=".45"/><circle cx="1128" cy="246" r="1" fill="#83EAD3" opacity=".45"/><circle cx="125" cy="99" r="2" fill="#83EAD3" opacity=".45"/><circle cx="262" cy="182" r="1" fill="#83EAD3" opacity=".45"/><circle cx="399" cy="265" r="1" fill="#83EAD3" opacity=".45"/><circle cx="536" cy="118" r="2" fill="#83EAD3" opacity=".45"/><circle cx="673" cy="201" r="1" fill="#83EAD3" opacity=".45"/><circle cx="810" cy="54" r="1" fill="#83EAD3" opacity=".45"/><circle cx="947" cy="137" r="2" fill="#83EAD3" opacity=".45"/><g transform="translate(35 282) scale(1.3 1.3)" fill="none" stroke="#7A8755" stroke-width="1.8" opacity=".7">
+<path d="M0 0Q-5-24 17-52"/>
+<path d="M0 -6q-18-2-17-13m17 7q16-2 19-11"/><path d="M2 -14q-18-2-17-13m19 -1q16-2 19-11"/><path d="M4 -22q-18-2-17-13m21 -9q16-2 19-11"/><path d="M6 -30q-18-2-17-13m23 -17q16-2 19-11"/><path d="M8 -38q-18-2-17-13m25 -25q16-2 19-11"/>
+</g><g transform="translate(1168 274) scale(-1.6 1.6)" fill="none" stroke="#7A8755" stroke-width="1.8" opacity=".7">
+<path d="M0 0Q-5-24 17-52"/>
+<path d="M0 -6q-18-2-17-13m17 7q16-2 19-11"/><path d="M2 -14q-18-2-17-13m19 -1q16-2 19-11"/><path d="M4 -22q-18-2-17-13m21 -9q16-2 19-11"/><path d="M6 -30q-18-2-17-13m23 -17q16-2 19-11"/><path d="M8 -38q-18-2-17-13m25 -25q16-2 19-11"/>
+</g>
+</svg>

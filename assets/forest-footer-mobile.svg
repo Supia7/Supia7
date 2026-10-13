@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="220" viewBox="0 0 400 220" role="img" aria-labelledby="title">
+<title id="title">A woodland horizon and a glowing rune stone. Keep it grounded. Small steps. Useful things.</title>
+<defs>
+  <radialGradient id="night"><stop stop-color="#102C25"/><stop offset="1" stop-color="#071C17"/></radialGradient>
+  <linearGradient id="stone" x2=".7" y2="1"><stop stop-color="#467449"/><stop offset=".5" stop-color="#284D36"/><stop offset="1" stop-color="#061611"/></linearGradient>
+  <linearGradient id="light" x2="0" y2="1"><stop stop-color="#83EAD3" stop-opacity=".22"/><stop offset="1" stop-color="#83EAD3" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="400" height="220" rx="12" fill="url(#night)"/>
+<path d="M0 220v-84m-24 44 24-44 25 43m-37-22 12-30 13 30" fill="none" stroke="#7A8755" stroke-width="1" opacity=".17"/><path d="M51 220v-101m-24 44 24-44 25 43m-37-22 12-30 13 30" fill="none" stroke="#7A8755" stroke-width="2" opacity=".17"/><path d="M102 220v-118m-24 44 24-44 25 43m-37-22 12-30 13 30" fill="none" stroke="#7A8755" stroke-width="3" opacity=".17"/><path d="M153 220v-100m-24 44 24-44 25 43m-37-22 12-30 13 30" fill="none" stroke="#7A8755" stroke-width="1" opacity=".17"/><path d="M204 220v-117m-24 44 24-44 25 43m-37-22 12-30 13 30" fill="none" stroke="#7A8755" stroke-width="2" opacity=".17"/><path d="M255 220v-99m-24 44 24-44 25 43m-37-22 12-30 13 30" fill="none" stroke="#7A8755" stroke-width="3" opacity=".17"/><path d="M306 220v-116m-24 44 24-44 25 43m-37-22 12-30 13 30" fill="none" stroke="#7A8755" stroke-width="1" opacity=".17"/><path d="M357 220v-98m-24 44 24-44 25 43m-37-22 12-30 13 30" fill="none" stroke="#7A8755" stroke-width="2" opacity=".17"/><path d="M408 220v-115m-24 44 24-44 25 43m-37-22 12-30 13 30" fill="none" stroke="#7A8755" stroke-width="3" opacity=".17"/><path d="M0 194Q100 165 200 194T400 184V220H0Z" fill="#102C25"/>
+<path d="M302 191l-2-59 17-16 22 4 13 17-3 54Z" fill="url(#stone)"/>
+<path d="m318 136 14 18-14 18-10-18Z" fill="none" stroke="#83EAD3" stroke-width="1.5"/>
+<text x="24" y="72" fill="#E9EFE0" font-family="Georgia,serif" font-size="28">Keep it grounded.</text>
+<text x="24" y="104" fill="#B4DCD0" font-family="Arial,sans-serif" font-size="16">Small steps. Useful things.</text>
+<g transform="translate(24 208) scale(1.1 1.1)" fill="none" stroke="#7A8755" stroke-width="1.8" opacity=".7">
+<path d="M0 0Q-5-24 17-52"/>
+<path d="M0 -6q-18-2-17-13m17 7q16-2 19-11"/><path d="M2 -14q-18-2-17-13m19 -1q16-2 19-11"/><path d="M4 -22q-18-2-17-13m21 -9q16-2 19-11"/><path d="M6 -30q-18-2-17-13m23 -17q16-2 19-11"/><path d="M8 -38q-18-2-17-13m25 -25q16-2 19-11"/>
+</g><g transform="translate(372 210) scale(-1.4 1.4)" fill="none" stroke="#7A8755" stroke-width="1.8" opacity=".7">
+<path d="M0 0Q-5-24 17-52"/>
+<path d="M0 -6q-18-2-17-13m17 7q16-2 19-11"/><path d="M2 -14q-18-2-17-13m19 -1q16-2 19-11"/><path d="M4 -22q-18-2-17-13m21 -9q16-2 19-11"/><path d="M6 -30q-18-2-17-13m23 -17q16-2 19-11"/><path d="M8 -38q-18-2-17-13m25 -25q16-2 19-11"/>
+</g>
+</svg>

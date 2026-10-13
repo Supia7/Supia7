@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>QuotaBar woodland exhibit</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 1200px; height: 560px; overflow: hidden; }
+    body { background: #071c17; color: #e9efe0; font-family: Arial, sans-serif; }
+    .forest { position: absolute; width: 1200px; height: 560px; object-fit: cover; opacity: .18; }
+    .veil { position: absolute; inset: 0; background: linear-gradient(90deg,#071c17 8%,#071c17d9 40%,#071c1700 100%); }
+    .copy { position: absolute; left: 48px; top: 72px; }
+    .label { font: 16px monospace; letter-spacing: 3px; color: #b4dcd0; }
+    h1 { font: 72px/1 Georgia, serif; margin: 32px 0 24px; letter-spacing: -2px; }
+    .headline { font: 28px/1.4 Georgia, serif; margin: 0; }
+    .detail { color: #b4dcd0; font-size: 20px; line-height: 1.6; margin-top: 24px; }
+    .signature { margin-top: 36px; color: #83ead3; font: 16px monospace; }
+    .product { position: absolute; right: 64px; top: 52px; width: 360px; border-radius: 16px; box-shadow: 0 24px 60px #061611; }
+    .caption { position: absolute; right: 64px; bottom: 40px; width: 360px; text-align: center; font: 14px monospace; color: #b4dcd0; }
+    .floor { position: absolute; bottom: 0; width: 100%; height: 16px; background: linear-gradient(90deg,#102c25,#284d36,#102c25); }
+    @media (max-width: 600px) {
+      html, body { width: 400px; height: 740px; }
+      .forest { width: 400px; height: 740px; object-position: 80%; opacity: .22; }
+      .veil { background: linear-gradient(#071c17 0%,#071c17cc 30%,#071c1720 100%); }
+      .copy { left: 24px; top: 32px; }
+      .label { font-size: 12px; letter-spacing: 2px; }
+      h1 { font-size: 44px; margin: 20px 0 16px; }
+      .headline { font-size: 24px; }
+      .detail { display: none; }
+      .signature { margin-top: 20px; font-size: 14px; }
+      .product { width: 320px; top: 280px; right: 40px; }
+      .caption { width: 352px; right: 24px; bottom: 36px; font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <img class="forest" src="../assets/supia-forest-scene.webp" alt="">
+  <div class="veil"></div>
+  <div class="copy">
+    <div class="label">FROM THE TOOL SHED / 01</div>
+    <h1>QuotaBar.</h1>
+    <p class="headline">A little less checking.<br>A little more building.</p>
+    <p class="detail">Claude &amp; Codex quota, at a glance.<br>A small native tool for your menu bar.</p>
+    <div class="signature">Swift / macOS / Local-first</div>
+  </div>
+  <img class="product" src="../assets/quotabar-public-preview.png" alt="Public QuotaBar preview with sample data">
+  <div class="caption">Actual app preview · sample data</div>
+  <div class="floor"></div>
+</body>
+</html>
