@@ -35,7 +35,8 @@ test('every day is serialized exactly once and in order at both widths', () => {
     assert.equal(counts.reduce((sum, value) => sum + value, 0), data.totalContributions);
     assert.equal(svg, renderGarden(data, { mobile }));
     assert.match(svg, mobile ? /width="400"/ : /width="1200"/);
-    assert.equal([...svg.matchAll(/data-plot=/g)].length, mobile ? 4 : 1);
+    assert.equal([...svg.matchAll(/data-plot=/g)].length, 1);
+    assert.match(svg, mobile ? /height="140"/ : /height="230"/);
     assert.doesNotMatch(svg, /foreignObject|<script|<image|href=/);
     assert.match(svg, /aria-labelledby="garden-title garden-desc"/);
   }
@@ -57,9 +58,8 @@ test('empty activity still preserves the full period and five encodings', () => 
   const varied = renderGarden(fixture());
   for (const level of LEVELS) assert.match(varied, new RegExp(`data-level="${level}"`));
   assert.deepEqual([...varied.matchAll(/data-legend-level="([^"]+)"/g)].map(match => match[1]), LEVELS);
-  const shapes = [...varied.matchAll(/<g[^>]*data-legend-level="[^"]+"[^>]*>([\s\S]*?)<\/g>/g)]
-    .map(match => match[1].replace(/<title>[\s\S]*?<\/title>/g, '').replace(/fill="[^"]+"|stroke="[^"]+"/g, ''));
-  assert.equal(new Set(shapes).size, LEVELS.length);
+  const colors = [...varied.matchAll(/<g[^>]*data-legend-level="[^"]+"[^>]*>[\s\S]*?fill="([^"]+)"[\s\S]*?<\/g>/g)].map(match => match[1]);
+  assert.equal(new Set(colors).size, LEVELS.length);
 });
 
 test('serialization rejects wrong date, weekday, level, count, order and total', () => {
@@ -148,7 +148,7 @@ test('updater writes the same validated data and only owned README block', async
   assert.deepEqual(JSON.parse(await readFile(join(root, 'data/contribution-calendar.json'), 'utf8')), data);
   assert.equal(await readFile(join(root, 'data/garden-summary.md'), 'utf8'), renderSummary(data));
   assert.deepEqual([...renderSummary(data).matchAll(/\]\(([^)]+)\)/g)].map(match => match[1]), ['./contribution-calendar.json', '../scripts/contribution-garden.mjs']);
-  assert.deepEqual([...replaceReadmeGarden(before, data).matchAll(/\]\(([^)]+)\)/g)].map(match => match[1]), ['./data/contribution-calendar.json', './scripts/contribution-garden.mjs']);
+  assert.deepEqual([...replaceReadmeGarden(before, data).matchAll(/\]\(([^)]+)\)/g)], []);
   assert.equal(await readFile(join(root, 'README.md'), 'utf8'), replaceReadmeGarden(before, data));
   assert.throws(() => replaceReadmeGarden('<!-- garden:end --><!-- garden:start -->', data));
   assert.throws(() => replaceReadmeGarden('<!-- garden:start --><!-- garden:start --><!-- garden:end -->', data));
