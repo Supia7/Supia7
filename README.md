@@ -13,14 +13,11 @@ I like making complicated work feel a little simpler — one useful tool at a ti
 
 ### On my workbench
 
-**Developer tools**<br>
-Small, focused tools that remove friction from everyday work.
+**Developer tools**<br>Small, focused tools that remove friction from everyday work.
 
-**AI workflows**<br>
-Connecting agents, context, and real work into systems I can actually use.
+**AI workflows**<br>Connecting agents, context, and real work into systems I can actually use.
 
-**Product building**<br>
-Working across code, design, and operations to turn ideas into usable products.
+**Product building**<br>Working across code, design, and operations to turn ideas into usable products.
 
 ### A small thing I've built
 
