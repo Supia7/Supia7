@@ -5,14 +5,3 @@
 </picture>
 
 I'm **Supia**. I build developer tools, AI workflows, and products at **MORI**.
-
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/contribution-garden-mobile.svg">
-  <img src="./assets/contribution-garden.svg" width="100%" alt="My GitHub contributions over the past year. One square per day; brighter moss green means more activity.">
-</picture>
-
-<!-- garden:start -->
-
-<sub>144 contributions · 2025-10-14 – 2026-10-13 · Updated 2026-10-13 (UTC)</sub>
-
-<!-- garden:end -->
