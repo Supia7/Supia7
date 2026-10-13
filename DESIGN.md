@@ -73,6 +73,8 @@ Use single-column Markdown; no layout tables. Responsive artwork uses `picture`
 sources at 600px. Every meaningful image has descriptive alt text. Static SVGs contain
 no scripts, external resources, foreignObject, or internal clickable regions.
 Native Markdown owns navigation and preserves meaningful text when images fail.
+Section navigation targets GitHub's generated `user-content-` anchor IDs directly,
+so it does not depend on the site's interception of unprefixed heading fragments.
 
 `scripts/render-profile.mjs` generates the trail and footer. Raster composition
 sources are `scripts/quotabar-exhibit.html` and `scripts/forest-mobile-hero.html`.

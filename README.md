@@ -13,7 +13,7 @@
 I'm **Supia**. I build developer tools, connect AI agents to real work, and build products at **MORI**.
 I like small tools that make complicated work feel a little simpler.
 
-[Explore the tool shed](#the-tool-shed) · [Walk through the garden](#the-moss-garden) · [Browse my repositories](https://github.com/Supia7?tab=repositories)
+[Explore the tool shed](#user-content-the-tool-shed) · [Walk through the garden](#user-content-the-moss-garden) · [Browse my repositories](https://github.com/Supia7?tab=repositories)
 
 ## The paths I keep taking
 
