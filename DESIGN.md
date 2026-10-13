@@ -13,13 +13,14 @@ Keep this exact character. Do not substitute an animal or regenerate its identit
 
 ## Visual contract
 
-- Material: matte, tactile green stone on warm ivory.
-- Brand palette: moss `#7A8755`, deep green `#334333`, cream `#FAF3E5`, warm ink `#283528`.
-- Use a cream hero banner containing the approved character and the word Supia.
+- Material: a matte green stone golem among moss-covered forest ruins at twilight.
+- Brand palette: forest `#071C17`, moss `#7A8755`, mist `#B4DCD0`, rune cyan `#83EAD3`, ivory `#E9EFE0`.
+- Use a continuous woodland hero banner containing the recognizable approved character and the word Supia.
 - Hero typography: Georgia for the headline; system sans for the small label and supporting line.
 - Main README text uses GitHub's native typography and colors.
-- Signature: a quiet, slightly deadpan pebble beside "Small stone. Useful systems."
-- No motion. No streak widgets, visitor counters, technology-logo walls, or invented metrics.
+- Signature: a quiet, slightly deadpan golem in a mossy sanctuary beside "Small stone. Useful systems."
+- Motion: an eight-second seamless ambient loop with slow low-lying mist and sparse cyan fireflies. The golem, background, and typography stay still.
+- No flashing, camera shake, streak widgets, visitor counters, technology-logo walls, or invented metrics.
 
 ## Content
 
@@ -30,11 +31,12 @@ Keep an ordinary text introduction outside the banner for accessibility.
 
 ## Primitives and states
 
-- Hero image: full-width, 1200 x 360; complete alt text.
+- Hero image: full-width, 1200 x 400 animated GIF; complete alt text.
+- Also provide a static forest poster and a plain link to it.
 - Intro: native prose, links with GitHub's standard keyboard focus.
 - Project: one native heading, description, and public link per item.
 - Footer: short personal principle in native text.
-- Static content; no loading, hover, or animated states outside GitHub's own UI.
+- README content stays static. Animation is baked into the image; no scripts execute in the profile.
 
 ## Responsive and accessibility constraints
 
@@ -47,4 +49,8 @@ Verify desktop and phone widths, with light and dark surroundings.
 
 GitHub cannot be reskinned by a profile README. The banner is a designed image,
 and the body intentionally uses GitHub's readable, theme-aware native layout.
-The cream banner remains cream in both themes to preserve the character's background.
+The forest banner keeps its authored colors in both themes. Text and the golem's face
+must remain legible against the woodland background at desktop and phone widths.
+Use a picture source for the still image when reduced motion is requested, subject
+to GitHub's markup sanitization. Keep a plain still-image link as an explicit
+alternative. GitHub owns GIF playback; no custom playback controls are claimed.

@@ -1,6 +1,11 @@
 <p align="center">
-  <img src="./assets/supia-pebble-banner.png" width="100%" alt="Supia — Small stone. Useful systems. A quiet green pebble mascot on a warm cream background.">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/supia-forest-banner.png">
+    <img src="./assets/supia-forest-banner.gif" width="100%" alt="Supia — Small stone. Useful systems. A green stone golem in a mossy forest with slowly drifting mist and cyan fireflies.">
+  </picture>
 </p>
+
+<p align="right"><sub><a href="./assets/supia-forest-banner.png">Still version</a></sub></p>
 
 ### Hi, I'm Supia.
 
